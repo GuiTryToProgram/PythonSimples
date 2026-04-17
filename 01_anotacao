@@ -1,0 +1,53 @@
+
+AULA - 1
+
+    tem vários atalhos para codar, o programiz(é um interpretador de python via web)
+    O vscode IDE instalada, muito conhecida
+    O ANACONDA, mais pesado, pois é um interpretador especifica pra analistas de dados, nele já vem instalado diversas LIB's de dados
+
+
+    VScode-icons é uma extensão que cria icones das linguagens de programação
+
+    criar uma pasta e arrastar ela no VSCode gera um novo workspace, ou vá File > Open new Folder
+
+    terminal > digitar: python + (um pouco do nome do arquivo) + apertar tab        
+    o PowerShell completa e roda seu arquivo, não esquecer de apertar ctrl+s para salvar;
+
+AULA - 2
+    .py é um documento criado para produção
+    .ipynb(interactive python notebook) é um documento criado para testes, você consegue criar blocos de código e testar os blocos individualmente,
+    é mais interativo e rápido para testes e analises
+
+    foi indicado o jupyter, instalamos via pip install;
+    Não instalar o python do microsoft store;
+    pra rodar o jupyter escreva: python -m notebook;
+    IMPORTANTE: Jupyter só roda arquivos .ipynb
+
+
+    PyPI = O Python Package Index (PyPI) é um repositório de software para a linguagem de programação Python.    
+
+VENV
+    venv = Ambiente virtual de desenvolvimento
+    código:
+        python -m venv .venv  (vai criar um venv chamado .venv)
+        .venv + tab (vai completar)
+        escrever o caminho para ativar o venv
+        .\.venv\scripts\activate 
+        (no meu caso não rodou, tive que rodar uma comando no powershell(adm): Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser)
+
+    pip list = verifica quais libs tem instaladas
+
+
+            1. Abriu o terminal na sua pasta
+                             ↓
+            2. Ativou o venv (.\.venv\Scripts\activate)
+                             ↓
+            3. Apareceu (.venv) na frente do terminal
+                             ↓
+            4. Agora QUALQUER lib que instalar vai pro venv
+                            ↓
+            5. pip install pandas   ← instala SÓ dentro do venv
+
+    pip freeze = Informa quais versões exatasdas bibliotecas
+        pip freeze > requirements.txt (No terminal faz isso criar um arquivo que salva as informações)
+    sempre que instalar uma nova lib tem que rodar esse código de cima
