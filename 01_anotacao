@@ -51,3 +51,17 @@ VENV
     pip freeze = Informa quais versões exatasdas bibliotecas
         pip freeze > requirements.txt (No terminal faz isso criar um arquivo que salva as informações)
     sempre que instalar uma nova lib tem que rodar esse código de cima
+
+Aula 3
+
+    Git - É um sistema de controle de versão
+    GitHub - Hospeda os projetos versionados pelo Git
+
+    Terminal:
+    Git init - inicia o Git
+    git status - verifica o status dos arquivos
+    git add .nome do arquivo - adiciona arquivo especifico
+    git add . - adiciona todos os arquivos
+    git commit -m
+    
+    .gitignore - arquivo criado para ignorar algumas coisas que não devem ser versionadas
