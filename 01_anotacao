@@ -48,7 +48,7 @@ VENV
                             ↓
             5. pip install pandas   ← instala SÓ dentro do venv
 
-    pip freeze = Informa quais versões exatasdas bibliotecas
+    pip freeze = Informa quais versões exatas das bibliotecas
         pip freeze > requirements.txt (No terminal faz isso criar um arquivo que salva as informações)
     sempre que instalar uma nova lib tem que rodar esse código de cima
 
@@ -57,7 +57,13 @@ Aula 3
     Git - É um sistema de controle de versão
     GitHub - Hospeda os projetos versionados pelo Git
     .gitignore - arquivo criado para ignorar algumas coisas que não devem ser versionadas
-
+    
+    inicio:
+    Instalar o Git
+    Abrir Cmd:
+    git config --global user.name "GuiTryToProgram"
+    git config --global user.email "guilherme2503oliveira@gmail.com"
+    
     Terminal:
     Primeiro passo
     Git init - inicia o Git
